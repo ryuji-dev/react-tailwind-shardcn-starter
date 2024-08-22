@@ -1,7 +1,11 @@
+import { Button } from "./components/ui/button";
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello, Tailwind CSS!</h1>
+      <div className="flex h-[100vh] items-center justify-center">
+        <Button>Click me</Button>
+      </div>
     </>
   );
 };
